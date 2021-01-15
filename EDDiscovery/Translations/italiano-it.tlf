@@ -19,8 +19,8 @@ Off: "Off" @
 Unknown: "Unknown" => "Sconosciuto"
 Information: "Information" => "Informazione"
 NoPos: "No Pos" => "Nessuna Posizione"
-HideColumn: "Hide Column" @
-UnhideallColumns: "Unhide all Columns" @
+HideColumn: "Hide Column" => "Nascondi colonna"
+UnhideallColumns: "Unhide all Columns" => "Mostra tutte le colonne"
 
 SECTION StartUp
 
@@ -28,17 +28,17 @@ SECTION StartUp
 
 SECTION SafeModeForm
 
-SafeModeForm: "EDDiscovery Safe Mode" @
-.buttonCancel: "Cancel" @
-.buttonNormal: "Run" @
-.buttonDeleteSystemDB: "Delete/Rebuild System DB" @
-.buttonDbs: "Move Databases" @
-.buttonLang: "Reset Language to English" @
-.button1: "Remove all Action Packs" @
-.buttonRemoveDLLs: "Remove all Extension DLLs" @
-.buttonResetTabs: "Reset Tabs, Remove PopOuts" @
-.buttonPositions: "Reset Window Positions" @
-.buttonResetTheme: "Reset Theme" @
+SafeModeForm: "EDDiscovery Safe Mode" => "Modo Sicuro"
+.buttonCancel: "Cancel" => "Elimina"
+.buttonNormal: "Run" => "Avvia"
+.buttonDeleteSystemDB: "Delete/Rebuild System DB" => "Elimina/Recostruisci database di sistema"
+.buttonDbs: "Move Databases" => "Muovi i databases"
+.buttonLang: "Reset Language to English" => "Resetta la linha su inglese"
+.button1: "Remove all Action Packs" => "Rimuovi tutti i pacchetti Action"
+.buttonRemoveDLLs: "Remove all Extension DLLs" => "Rimuovi le estensioni DLLs"
+.buttonResetTabs: "Reset Tabs, Remove PopOuts" => "Reimposta schede, rimuoivi popup"
+.buttonPositions: "Reset Window Positions" => "Reimposta la posizione della finestra"
+.buttonResetTheme: "Reset Theme" => "Reimpost il tema"
 
 SECTION PopOutInfo
 
@@ -174,8 +174,8 @@ SECTION EDDiscoveryForm
 .helpTabToolStripMenuItem: "Help" @
 .helpToolStripMenuItem: "&Help" => "&Aiuto"
 .helpToolStripMenuItem.aboutToolStripMenuItem: "&About" => "Riguardo &a"
-.helpToolStripMenuItem.wikiHelpToolStripMenuItem: "&View Help" @
-.helpToolStripMenuItem.viewHelpVideosToolStripMenuItem: "View Help Videos" @
+.helpToolStripMenuItem.wikiHelpToolStripMenuItem: "&View Help" => "&Visualizza l'aiuto"
+.helpToolStripMenuItem.viewHelpVideosToolStripMenuItem: "View Help Videos" => "Visualizza i video di aiuto"
 .helpToolStripMenuItem.eDDiscoveryChatDiscordToolStripMenuItem: "&Discord - EDD Community Chat" => "Chat della comunitá di EDD"
 .helpToolStripMenuItem.frontierForumThreadToolStripMenuItem: "&Frontier Forum Thread" => "Forum di &Frontier"
 .helpToolStripMenuItem.gitHubToolStripMenuItem: "&Project Page (GitHub)" => "&Pagine del progetto (GitHub)"
@@ -192,7 +192,7 @@ SECTION EDDiscoveryForm
 .buttonExtRefresh.ToolTip: "Refresh the history" => "Aggiorna lo storico"
 .buttonExt2dmap.ToolTip: "Open the 2D Map" => "Apri la mappa 2D"
 .buttonExt3dmap.ToolTip: "Open the 3D Map" => "Apri la mappa 3D"
-.buttonReloadActions.ToolTip: "DEBUG reload action system" @
+.buttonReloadActions.ToolTip: "DEBUG reload action system" => "DEBUG ricarica sistema action"
 .addTabToolStripMenuItem: "Insert Tab with panel.." => "Inserisci un pannelo come scheda"
 .removeTabToolStripMenuItem: "Remove Tab" => "Rimuovi scheda"
 .renameTabToolStripMenuItem: "Rename Tab" => "Rinomina scheda"
@@ -273,7 +273,7 @@ SECTION EDDiscoveryController
 .HRC: "History refresh complete." => "Ricaricamento dello storico completato"
 .Maps: "Checking for new EDDiscovery maps" => "Verificando per nuove mappe EDDiscovery"
 .EXPD: "Checking for new Expedition data" => "Verificando per nuovi dati di Esplorazione"
-.EXPL: "Checking for new Exploration data" @
+.EXPL: "Checking for new Exploration data" => "Verifica nuovi dati di Esplorazione"
 
 SECTION ScreenshotDirectoryWatcher
 
@@ -526,10 +526,10 @@ SECTION Form2DMap
 
 SECTION UserControl2DMap
 
-UserControl2DMap: "2D Map" @
-.Nomapsavailable: "No maps available" @
-.toolStripButtonStars: "Stars" @
-.toolStripButtonSave: "Save" @
+UserControl2DMap: "2D Map" => "Mappa 2D"
+.Nomapsavailable: "No maps available" => "Nessuna mappa disponibile"
+.toolStripButtonStars: "Stars" => "Stelle"
+.toolStripButtonSave: "Save" => "Salva"
 
 SECTION GalaxySectorSelect
 
@@ -680,7 +680,7 @@ SECTION UserControlForm
 .panel_close.ToolTip: "Close" => "Chiudi"
 .panel_taskbaricon.ToolTip: "Toggle show taskbar icon for this window" => "Mostra o no l'icona della finestra sulla barra."
 .panel_showtitle.ToolTip: "Toggle title visibility for this window when transparent" => "Mostra il titolo quando trasparente"
-.panel_transparent.ToolTip: "Toggle window transparency thru four settings\r\nOff - normal window\r\nOn (T) - transparent with controls active when mouse not inside window\r\nOn (Tc) - transparent with control active, to activate hold down the activate key\r\nOn (Tf) - fully transparent and inert, to activate hold down the activate key\r\n\r\nSee the settings page for configuring which key is the activate key.  \r\nMouse must be within the boundaries of the window and the key held down for\r\n500ms approx.\r\n\r\n\r\n" => "Imposta trasparenza in quattro modi\r\nOff - normale (opaco)\r\nOn (T) - trasparente, con i controlli attivi quando il mouse é fuori\r\nOn (Tc) - trasparente, con i controlli attivi; per attivare, manetere premuto il tasto di attivazione\r\nOn (Tf) - trasparenza totale; inerte, per attivare mantenere premuto il tasto di attivazione\r\n\r\nSee the settings page for configuring which key is the activate key.  \r\nMouse must be within the boundaries of the window and the key held down for\r\n500ms approx.\r\n\r\n\r\n"
+.panel_transparent.ToolTip: "Toggle window transparency thru four settings\r\nOff - normal window\r\nOn (T) - transparent with controls active when mouse not inside window\r\nOn (Tc) - transparent with control active, to activate hold down the activate key\r\nOn (Tf) - fully transparent and inert, to activate hold down the activate key\r\n\r\nSee the settings page for configuring which key is the activate key.  \r\nMouse must be within the boundaries of the window and the key held down for\r\n500ms approx.\r\n\r\n\r\n" => "Imposta trasparenza in quattro modi\r\nOff - normale (opaco)\r\nOn (T) - trasparente, con i controlli attivi quando il mouse é fuori\r\nOn (Tc) - trasparente, con i controlli attivi; per attivare, manetere premuto il tasto di attivazione\r\nOn (Tf) - trasparenza totale; inerte, per attivare mantenere premuto il tasto di attivazione\r\n\r\nVerifica nel setup quale tasto é configurato.  \r\nIl mouse dev'essere dentro i limiti del controllo e rimanere per almeno \r\n500ms.\r\n\r\n\r\n"
 
 SECTION ExtPanelRollUp
 
